@@ -4,7 +4,7 @@
 ----------
 
 1. ## Objetivos
-El presente proyecto, trata de implementar una solución con el apoyo de la tecnología IoT
+- El presente proyecto, trata de implementar una solución con el apoyo de la tecnología IoT
 para sofisticar la industria agrícola, en concreto la relacionada a la avicultura.
 Para comenzar, vamos a conectar mediante un fotoresistor un arduino que envía el mensaje al ordenaador 
 una vez que se ha emitido la señal. 
