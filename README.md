@@ -39,6 +39,7 @@ Un fotoresistor está formado por un semiconductor, típicamente sulfuro de cadm
 ----------
 
 <img src="https://www.aprendiendoarduino.com/wordpress/wp-content/uploads/2016/03/arduino-genuino.png" align="right" height="100" width="100" ></a>
+
 3. ## Código Fuente Arduino
 
 
@@ -51,7 +52,7 @@ Un fotoresistor está formado por un semiconductor, típicamente sulfuro de cadm
 - Al parecer, el campo en el que nos estamo moviendo es muy virgen y árido como para encontrar una variedad de proyectos en lo cuales soportar nuestra teoría, a continuación, se encuentra el enlace único que muestra un proyecto realizado con el arduino mkr1010 wifi. 
 https://create.arduino.cc/projecthub/ahmadradhy/mqtt-protocol-with-thingsboard-cloud-using-arduino-mkr1010-3a8cdb
 
-Con respecto a esta primera etapa, hemos conseguido enviar la señal del fotosensor, al mecanismo y recibir señal directa del arduino.
+Con respecto a esta primera etapa, hemos conseguido enviar la señal del fotosensor, al mecanismo y recibir señal directa del arduino. Siguiente etapa, implementacion con arduino mkr1010.
 
 5. Codigo fuente arduino MKR1010 y Thingsboard (en archivo alojado en repositorio)
 
