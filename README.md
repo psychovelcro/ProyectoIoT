@@ -12,9 +12,9 @@
 1. ## Objetivos
 - El presente proyecto, trata de implementar una solución con el apoyo de la tecnología IoT
 para sofisticar la industria agrícola, en concreto la relacionada a la avicultura.
-Para comenzar, vamos a conectar mediante un fotoresistor un arduino que envía el mensaje al ordenaador 
+Para comenzar, vamos a conectar mediante un fotoresistor un arduino que envía el mensaje al ordenador 
 una vez que se ha emitido la señal. 
-La siguiente etapa, constaría de utilizar un arduino MKR-WIFI-1010 para enviar las señales a un dashboard a través de una seña de wifi. 
+La siguiente etapa, constaría de utilizar un arduino MKR-WIFI-1010 para enviar las señales a un dashboard a través de una señal de wifi. 
 
 ----------
 
