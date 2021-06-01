@@ -1,6 +1,12 @@
 <img src="https://hackster.imgix.net/uploads/attachments/723841/blob_fXIeojA4b3.blob?auto=compress%2Cformat&w=900&h=675&fit=min" align="left" height="100" width="100" ></a>
 
 # Proyecto Integrador IoT. Hot Wheels Gallinero
+<img src="https://www.rankingcyd.org/assets/img/logoUnis2/173.png" align="right" height="150" width="200" ></a>
+<br />                                                                      
+### Internet de las cosas
+#### Adrian Cañadas(Dragoadri)
+#### Enrique Perlado
+#### Juanjo Rey (psychovelcro)
 ----------
 
 1. ## Objetivos
@@ -38,6 +44,8 @@ Un fotoresistor está formado por un semiconductor, típicamente sulfuro de cadm
 
 ----------
 
+<br />
+
 <img src="https://www.aprendiendoarduino.com/wordpress/wp-content/uploads/2016/03/arduino-genuino.png" align="right" height="100" width="100" ></a>
 
 3. ## Código Fuente Arduino
@@ -53,13 +61,13 @@ void setup() {
 
 void loop() {
 
-  int v = analogRead(A0);
-  // El valor 600 (siguiente línea) se debe de ajustar dependiendo de la luz en el local
-  // y del valor de la resistencia pull-down
-  // poca luz -> v pequeño, mucha luz -> v grande. 
-  if (v < 600) digitalWrite(pinLED, HIGH); 
-  else digitalWrite(pinLED, LOW);
-  Serial.println(v);
+  int v = analogRead(A0); <br />
+  // El valor 600 (siguiente línea) se debe de ajustar dependiendo de la luz en el local  <br />
+  // y del valor de la resistencia pull-down  <br />
+  // poca luz -> v pequeño, mucha luz -> v grande.  <br />
+  if (v < 600) digitalWrite(pinLED, HIGH);  <br /> 
+  else digitalWrite(pinLED, LOW);  <br />
+  Serial.println(v);  <br />
 }
 
 
@@ -67,10 +75,6 @@ void loop() {
 
 4. ## Conclusión
 - Al parecer, el campo en el que nos estamo moviendo es muy virgen y árido como para encontrar una variedad de proyectos en lo cuales soportar nuestra teoría, a continuación, se encuentra el enlace único que muestra un proyecto realizado con el arduino mkr1010 wifi. 
-https://create.arduino.cc/projecthub/ahmadradhy/mqtt-protocol-with-thingsboard-cloud-using-arduino-mkr1010-3a8cdb
+https://create.arduino.cc/projecthub/ahmadradhy/mqtt-protocol-with-thingsboard-cloud-using-arduino-mkr1010-3a8cdb. Con respecto a esta primera etapa, hemos conseguido enviar la señal del fotosensor, al mecanismo y recibir señal directa del arduino. Siguiente etapa, implementacion con arduino mkr1010.
 
-Con respecto a esta primera etapa, hemos conseguido enviar la señal del fotosensor, al mecanismo y recibir señal directa del arduino. Siguiente etapa, implementacion con arduino mkr1010.
-
-5. Codigo fuente arduino MKR1010 y Thingsboard (en archivo alojado en repositorio)
-
-
+***Codigo fuente arduino MKR1010 y Thingsboard (en archivo alojado en repositorio)
